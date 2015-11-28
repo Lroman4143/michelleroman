@@ -8,12 +8,16 @@ header{
     background-color:limegreen;
     padding-left: 1%;
     font-size:200%;
+    height:113px;
 }
 .container{
     width:960px;
     margin:0 auto;
 }
 h1{
+    display:inline;
+    float:left;
+    line-height:113px;
     margin:0;
 }
 #divider{
@@ -58,7 +62,7 @@ article > h2{
 
 #city_logo{
     float: right;
-    margin-top:-12.5%;
+    
     margin-right: 2%;
     
     height:7rem;
