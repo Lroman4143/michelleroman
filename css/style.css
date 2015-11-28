@@ -1,0 +1,104 @@
+html, body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:limegreen;
+    margin-left:10%;
+    margin-right:10%;
+    padding-top:5%;
+    margin-top:2%;
+    padding-left: 1%;
+    font-size:200%;
+}
+h1{
+    margin:0;
+}
+#divider{
+    background-color: purple;
+    height:1rem;
+    margin-bottom:1.5%;
+    margin-left:10%;
+    margin-right:10%;
+   
+}
+
+nav{
+    background-color: purple;
+    float: right;
+    margin-right:10%;
+    margin-top:-28%;
+    padding-right: 3%;
+    font-size:200%;
+}
+#about, #images, #links{
+    padding-bottom: 4%;
+}
+
+li{
+    list-style-type: none;
+    
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+article{
+    margin-left: 10%;
+    margin-right: 25%
+}
+article > h2{
+    display:inline;
+    vertical-align: top;
+    padding-top:5%;
+}
+
+
+#city_logo{
+    float: right;
+    margin-top:-12.5%;
+    margin-right: 2%;
+    
+    height:7rem;
+    width:9rem;
+}
+#profile_1{
+    margin-top:-1%;
+    height:10rem;
+    width:10rem;
+    float:left;
+    margin-right:1%;
+}
+#profile_2{
+    height:7rem;
+    width:7rem;
+    float:left;
+    display:inline;
+    margin-right:1%;
+}
+footer{
+    background-color:purple;
+    width:100%;
+    padding-top:3%;
+    padding-bottom:2%;
+    
+    
+}
+.footer_list{
+    
+    margin-left:7%;
+}
+.footer_list > li{
+    padding-bottom:3%;
+}
+
+#bio > li{
+    display:inline;
+    
+}
+#bio{
+    margin-top:-8%;
+    margin-left:15%;
+    margin-right:10%;
+}
