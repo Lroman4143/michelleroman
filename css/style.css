@@ -1,14 +1,58 @@
+@media screen and (max-width: 1057px) {
+    nav{
+        display:block;
+        width:30%rem;
+
+        overflow:hidden;
+    }
+    nav > ul > li{
+        display:inline;
+        overflow:hidden;
+    }
+    #bio{
+        margin-left:10%;
+        margin-right:10%;
+    }
+    .footer_list{
+        margin:0;
+        color:purple;
+        margin-left:-10%;
+    }
+    #fle{
+        color:purple;
+    }
+    header{
+        width:100%;
+        margin:0;
+    }
+    #divider{
+        width:100%;
+        margin:0;
+        float:left;
+    }
+    #profile_2{
+        margin-left:-12%;   
+    }
+        
+}
+
+
+
+
 html, body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    display: inline;
 }
 header{
     background-color:limegreen;
     padding-left: 1%;
     font-size:200%;
     height:113px;
+    margin-right:10%;
+    margin-left:10%;
 }
 .container{
     width:960px;
@@ -33,9 +77,12 @@ nav{
     background-color: purple;
     float: right;
     margin-right:10%;
-    margin-top:-28%;
+    margin-top: 5rem;
     padding-right: 3%;
     font-size:200%;
+    margin-bottom:5rem;
+    /* display: inline*/
+    
 }
 #about, #images, #links{
     padding-bottom: 4%;
@@ -51,7 +98,10 @@ a{
 }
 article{
     margin-left: 10%;
-    margin-right: 25%
+    /* margin-right: 25%
+; */
+    display: inline-block;
+    width: 61%;
 }
 article > h2{
     display:inline;
@@ -87,11 +137,9 @@ footer{
     width:100%;
     padding-top:3%;
     padding-bottom:2%;
-    
-    
 }
 .footer_list{
-    
+    float:left;
     margin-left:7%;
 }
 .footer_list > li{
@@ -103,7 +151,14 @@ footer{
     
 }
 #bio{
-    margin-top:-8%;
+    
     margin-left:15%;
     margin-right:10%;
 }
+
+h2{
+    display:block;
+    width:100%;
+    
+}
+
